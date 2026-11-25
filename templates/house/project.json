@@ -1,0 +1,19 @@
+{
+ "name": "My house",
+ "about": "Use a nickname, not the address.",
+ "units": "ft",
+ "north_from_plus_y_deg": null,
+ "front_turns": 0,
+ "location": {"latitude": null, "longitude": null, "note": "Round to two decimals."},
+ "lot": {
+  "rect": null,
+  "area_sqft": null,
+  "max_coverage": null,
+  "max_floor_area_ratio": null,
+  "note": "rect is [x0, x1, y0, y1] in the model frame, in feet. Limits come from the local zoning code; mark them unconfirmed in the brief until the city confirms them."
+ },
+ "scans": [
+  {"id": "inside", "file": "scans/Inside.ply", "kind": "inside"},
+  {"id": "outside", "file": "scans/Outside.ply", "kind": "outside"}
+ ]
+}

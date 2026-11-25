@@ -1,0 +1,15 @@
+{
+ "about": "Placeholder rates so the example runs. They are round numbers, not market data. Replace each with a local figure and say where it came from; leave \"guess\": true on any you could not source.",
+ "rates": {
+  "addition_ground_sqft": {"value": 300, "guess": true, "source": "placeholder"},
+  "addition_upper_sqft": {"value": 250, "guess": true, "source": "placeholder"},
+  "gut_remodel_sqft": {"value": 150, "guess": true, "source": "placeholder"},
+  "refresh_sqft": {"value": 40, "guess": true, "source": "placeholder"},
+  "wall_demolition_ft": {"value": 60, "guess": true, "source": "placeholder"},
+  "kitchen_each": {"value": 60000, "guess": true, "source": "placeholder"},
+  "bath_each": {"value": 25000, "guess": true, "source": "placeholder"},
+  "porch_sqft": {"value": 110, "guess": true, "source": "placeholder"},
+  "stair_each": {"value": 15000, "guess": true, "source": "placeholder"}
+ },
+ "on_top": {"design_fees": 0.10, "permits": 0.02, "contingency": 0.15}
+}

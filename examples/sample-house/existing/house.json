@@ -1,0 +1,55 @@
+{
+ "name": "Sample bungalow as it stands",
+ "units": "ft",
+ "source": "Typed by hand for the example. In a real project this file is drafted from the scans by scan_trace.py and corrected against the plan slice.",
+ "wall": {"exterior": 0.5, "interior": 0.4},
+ "levels": [
+  {
+   "id": "main", "label": "Main floor", "floor": 0.0, "ceiling": 9.0,
+   "outline": [[0, 40, 0, 28]],
+   "rooms": [
+    {"id": "living", "label": "Living room", "type": "living", "rect": [0.5, 16.0, 0.5, 14.8]},
+    {"id": "dining", "label": "Dining room", "type": "dining", "rect": [16.4, 27.0, 0.5, 14.8]},
+    {"id": "kitchen", "label": "Kitchen", "type": "kitchen", "rect": [27.4, 39.5, 0.5, 19.0]},
+    {"id": "hall", "label": "Hall", "type": "hall", "rect": [13.4, 27.0, 15.2, 19.0]},
+    {"id": "bed1", "label": "Bedroom 1", "type": "bedroom", "rect": [0.5, 13.0, 15.2, 27.5]},
+    {"id": "bath", "label": "Bath", "type": "bath", "rect": [13.4, 20.0, 19.4, 27.5]},
+    {"id": "bed2", "label": "Bedroom 2", "type": "bedroom", "rect": [20.4, 39.5, 19.4, 27.5]}
+   ],
+   "doors": [
+    {"id": "front", "run": "y", "at": 0.25, "span": [6, 9], "height": 6.8, "exterior": true},
+    {"id": "back", "run": "y", "at": 39.75, "span": [8, 11], "height": 6.8, "exterior": true, "glazed": true},
+    {"id": "bed1", "run": "y", "at": 13.2, "span": [15.6, 18.2], "height": 6.8},
+    {"id": "bath", "run": "x", "at": 19.2, "span": [15.0, 17.5], "height": 6.8},
+    {"id": "bed2", "run": "x", "at": 19.2, "span": [22.0, 24.6], "height": 6.8},
+    {"id": "hall-kitchen", "run": "y", "at": 27.2, "span": [15.6, 18.4], "height": 6.8}
+   ],
+   "openings": [
+    {"id": "living-dining", "run": "y", "at": 16.2, "span": [4, 11], "height": 7.5},
+    {"id": "living-hall", "run": "x", "at": 15.0, "span": [13.6, 15.9], "height": 7.5},
+    {"id": "dining-hall", "run": "x", "at": 15.0, "span": [18, 22], "height": 7.5},
+    {"id": "dining-kitchen", "run": "y", "at": 27.2, "span": [5, 11], "height": 7.5}
+   ],
+   "windows": [
+    {"id": "w-living-front", "run": "y", "at": 0.25, "span": [10.5, 13.5], "sill": 2.5, "head": 7.0},
+    {"id": "w-living-side", "run": "x", "at": 0.25, "span": [4, 8], "sill": 2.5, "head": 7.0},
+    {"id": "w-bed1-front", "run": "y", "at": 0.25, "span": [19, 23], "sill": 2.5, "head": 7.0},
+    {"id": "w-bed1-side", "run": "x", "at": 27.75, "span": [4, 8], "sill": 2.5, "head": 7.0},
+    {"id": "w-bath", "run": "x", "at": 27.75, "span": [15.5, 17.5], "sill": 4.0, "head": 7.0},
+    {"id": "w-bed2-side", "run": "x", "at": 27.75, "span": [27, 31], "sill": 2.5, "head": 7.0},
+    {"id": "w-bed2-rear", "run": "y", "at": 39.75, "span": [22, 25], "sill": 2.5, "head": 7.0},
+    {"id": "w-dining", "run": "x", "at": 0.25, "span": [19, 24], "sill": 2.5, "head": 7.0},
+    {"id": "w-kitchen-side", "run": "x", "at": 0.25, "span": [31, 35], "sill": 3.5, "head": 7.0},
+    {"id": "w-kitchen-rear", "run": "y", "at": 39.75, "span": [13, 16], "sill": 3.5, "head": 7.0}
+   ]
+  }
+ ],
+ "porches": [
+  {"id": "front-porch", "rect": [-7, 0, 2, 20], "floor": -0.5, "posts": true}
+ ],
+ "roofs": [
+  {"id": "main", "rect": [0, 40, 0, 28], "type": "gable", "ridge": "x", "pitch": 6, "overhang": 1.5, "base": 9.0},
+  {"id": "front-porch", "rect": [-7, 0, 2, 20], "type": "shed", "ridge": "y", "pitch": 2, "overhang": 0.5, "base": 8.0, "low_side": "-x"}
+ ],
+ "grade": -1.5
+}

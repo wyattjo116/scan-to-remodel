@@ -1,0 +1,428 @@
+{
+ "id": "a-rear-wing-up",
+ "areas": {
+  "levels": {
+   "main": {
+    "gross_sqft": 1512.0,
+    "rooms": {
+     "living": 221.7,
+     "kitchen": 330.3,
+     "family": 193.1,
+     "hall": 51.7,
+     "stair": 46.0,
+     "office": 153.8,
+     "bath": 53.5,
+     "office2": 82.6,
+     "bath-primary": 68.9,
+     "primary": 166.1
+    }
+   },
+   "upper": {
+    "gross_sqft": 952.0,
+    "rooms": {
+     "landing": 76.4,
+     "stair-up": 46.0,
+     "bed3": 221.7,
+     "bed4": 244.5,
+     "bath-up": 77.0,
+     "bed5": 187.1
+    }
+   }
+  },
+  "floor_area_sqft": 2464.0,
+  "footprint_sqft": 1512.0,
+  "porch_sqft": 318.0,
+  "covered_sqft": 1830.0
+ },
+ "checks": [
+  {
+   "level": "main",
+   "check": "living at least 11 ft wide",
+   "ok": true,
+   "detail": "narrow side 14'-4\""
+  },
+  {
+   "level": "main",
+   "check": "living can be entered",
+   "ok": true,
+   "detail": "3 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "living has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "kitchen at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 14'-4\""
+  },
+  {
+   "level": "main",
+   "check": "kitchen can be entered",
+   "ok": true,
+   "detail": "3 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "kitchen has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "family at least 11 ft wide",
+   "ok": true,
+   "detail": "narrow side 13'-6\""
+  },
+  {
+   "level": "main",
+   "check": "family can be entered",
+   "ok": true,
+   "detail": "2 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "family has a window",
+   "ok": true,
+   "detail": "1 windows, 1 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "hall at least 3 ft wide",
+   "ok": true,
+   "detail": "narrow side 3'-10\""
+  },
+  {
+   "level": "main",
+   "check": "hall can be entered",
+   "ok": true,
+   "detail": "6 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "stair at least 3 ft wide",
+   "ok": true,
+   "detail": "narrow side 3'-10\""
+  },
+  {
+   "level": "main",
+   "check": "stair can be entered",
+   "ok": true,
+   "detail": "2 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "office at least 7 ft wide",
+   "ok": true,
+   "detail": "narrow side 12'-4\""
+  },
+  {
+   "level": "main",
+   "check": "office can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "office has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "bath at least 5 ft wide",
+   "ok": true,
+   "detail": "narrow side 6'-7\""
+  },
+  {
+   "level": "main",
+   "check": "bath can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "office2 at least 7 ft wide",
+   "ok": true,
+   "detail": "narrow side 8'-1\""
+  },
+  {
+   "level": "main",
+   "check": "office2 can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "office2 has a window",
+   "ok": true,
+   "detail": "1 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "bath-primary at least 5 ft wide",
+   "ok": true,
+   "detail": "narrow side 8'-1\""
+  },
+  {
+   "level": "main",
+   "check": "bath-primary can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "primary at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 12'-4\""
+  },
+  {
+   "level": "main",
+   "check": "primary can be entered",
+   "ok": true,
+   "detail": "2 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "primary has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "upper",
+   "check": "landing at least 3 ft wide",
+   "ok": true,
+   "detail": "narrow side 3'-10\""
+  },
+  {
+   "level": "upper",
+   "check": "landing can be entered",
+   "ok": true,
+   "detail": "6 door or opening"
+  },
+  {
+   "level": "upper",
+   "check": "stair-up at least 3 ft wide",
+   "ok": true,
+   "detail": "narrow side 3'-10\""
+  },
+  {
+   "level": "upper",
+   "check": "stair-up can be entered",
+   "ok": true,
+   "detail": "2 door or opening"
+  },
+  {
+   "level": "upper",
+   "check": "bed3 at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 14'-4\""
+  },
+  {
+   "level": "upper",
+   "check": "bed3 can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "upper",
+   "check": "bed3 has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "upper",
+   "check": "bed4 at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 14'-4\""
+  },
+  {
+   "level": "upper",
+   "check": "bed4 can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "upper",
+   "check": "bed4 has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "upper",
+   "check": "bath-up at least 5 ft wide",
+   "ok": true,
+   "detail": "narrow side 8'-1\""
+  },
+  {
+   "level": "upper",
+   "check": "bath-up can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "upper",
+   "check": "bed5 at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 8'-1\""
+  },
+  {
+   "level": "upper",
+   "check": "bed5 can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "upper",
+   "check": "bed5 has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "all",
+   "check": "stair drawn",
+   "ok": true,
+   "detail": "a stair is needed between floors"
+  },
+  {
+   "level": "upper",
+   "check": "sits over main",
+   "ok": true,
+   "detail": "0 sq ft overhangs the floor below"
+  },
+  {
+   "level": "upper",
+   "check": "note: share of walls standing on a wall below",
+   "ok": true,
+   "detail": "76%"
+  },
+  {
+   "level": "lot",
+   "check": "lot coverage",
+   "ok": true,
+   "detail": "24.4% of the lot against a limit of 45%"
+  },
+  {
+   "level": "lot",
+   "check": "floor-area ratio",
+   "ok": true,
+   "detail": "0.33 against a limit of 0.50"
+  }
+ ],
+ "height_ft": 25.3,
+ "cost": {
+  "total": 807000,
+  "construction": 635434,
+  "on_top": {
+   "design_fees": 0.1,
+   "permits": 0.02,
+   "contingency": 0.15
+  },
+  "guessed_share_of_construction": 1.0,
+  "lines": [
+   {
+    "label": "New ground-floor area (main)",
+    "quantity": 392.0,
+    "unit": "sq ft",
+    "rate": 300,
+    "amount": 117600,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Rooms rebuilt inside the existing house (main)",
+    "quantity": 527.8,
+    "unit": "sq ft",
+    "rate": 150,
+    "amount": 79167,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Rooms refreshed (main)",
+    "quantity": 592.2,
+    "unit": "sq ft",
+    "rate": 40,
+    "amount": 23689,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Walls taken down (main)",
+    "quantity": 14.3,
+    "unit": "ft of wall",
+    "rate": 60,
+    "amount": 858,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Kitchen fit-out (kitchen)",
+    "quantity": 1,
+    "unit": "each",
+    "rate": 60000,
+    "amount": 60000,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Bathroom fit-out (bath-primary)",
+    "quantity": 1,
+    "unit": "each",
+    "rate": 25000,
+    "amount": 25000,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "New upper-floor area (upper)",
+    "quantity": 952.0,
+    "unit": "sq ft",
+    "rate": 250,
+    "amount": 238000,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Bathroom fit-out (bath-up)",
+    "quantity": 1,
+    "unit": "each",
+    "rate": 25000,
+    "amount": 25000,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "New porch",
+    "quantity": 192.0,
+    "unit": "sq ft",
+    "rate": 110,
+    "amount": 21120,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "New stair",
+    "quantity": 1,
+    "unit": "each",
+    "rate": 15000,
+    "amount": 15000,
+    "source": "placeholder",
+    "guess": true
+   },
+   {
+    "label": "Structural work to carry the second floor on the old walls",
+    "quantity": 1,
+    "unit": "item",
+    "rate": 30000,
+    "amount": 30000,
+    "source": "placeholder guess; an engineer sets this",
+    "guess": true
+   }
+  ],
+  "note": "An estimate from the rates in rates.json, not a bid. Replace the rates with local ones."
+ }
+}

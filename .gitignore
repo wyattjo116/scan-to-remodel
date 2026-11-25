@@ -1,0 +1,16 @@
+# raw scans and what the scan steps derive from them are large and personal: never in git
+**/scans/*
+!**/scans/README.md
+# your own house lives in house/. This line keeps it out of the public repo.
+# In a PRIVATE copy of this repo, delete the next line so your project is saved with it.
+/house/
+# other people's photographs, and anything with keys
+photos/
+inspiration/
+.env
+.env.*
+*.key
+# built files
+__pycache__/
+*.blend1
+.venv/

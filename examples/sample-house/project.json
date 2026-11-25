@@ -1,0 +1,18 @@
+{
+ "name": "Sample bungalow",
+ "about": "A made-up one-storey house used to show every step. It is not a real property.",
+ "units": "ft",
+ "north_from_plus_y_deg": 0,
+ "location": {"latitude": 33.77, "longitude": -84.30, "note": "Rounded to two decimals. Used only for sun angles in renders."},
+ "lot": {
+  "rect": [-25, 125, -11, 39],
+  "area_sqft": 7500,
+  "max_coverage": 0.45,
+  "max_floor_area_ratio": 0.5,
+  "note": "Limits typed in as examples. Read your own from the local zoning code and confirm them with the city."
+ },
+ "scans": [
+  {"id": "inside", "file": "scans/sample-inside.ply", "kind": "inside"},
+  {"id": "outside", "file": "scans/sample-outside.ply", "kind": "outside"}
+ ]
+}

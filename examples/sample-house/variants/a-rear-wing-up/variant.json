@@ -1,0 +1,102 @@
+{
+ "name": "a-rear-wing-up",
+ "title": "A - Rear wing with rooms above",
+ "concept": "The front rooms and the street face stay. The kitchen and dining room become one room. A 14 ft wing at the rear holds a family room and a main-floor bedroom suite, and a second floor over the rear two thirds of the house adds three bedrooms and a bath. The stair goes where the back of the old kitchen was.",
+ "units": "ft",
+ "wall": {"exterior": 0.5, "interior": 0.4},
+ "levels": [
+  {
+   "id": "main", "label": "Main floor", "floor": 0.0, "ceiling": 9.0,
+   "outline": [[0, 54, 0, 28]],
+   "rooms": [
+    {"id": "living", "label": "Living room", "type": "living", "rect": [0.5, 16.0, 0.5, 14.8]},
+    {"id": "kitchen", "label": "Kitchen and dining", "type": "kitchen", "rect": [16.4, 39.5, 0.5, 14.8]},
+    {"id": "family", "label": "Family room", "type": "living", "rect": [40.0, 53.5, 0.5, 14.8]},
+    {"id": "hall", "label": "Hall", "type": "hall", "rect": [13.4, 27.0, 15.2, 19.0]},
+    {"id": "stair", "label": "Stair", "type": "stair", "rect": [27.4, 39.5, 15.2, 19.0]},
+    {"id": "office", "label": "Office", "type": "office", "rect": [0.5, 13.0, 15.2, 27.5]},
+    {"id": "bath", "label": "Bath", "type": "bath", "rect": [13.4, 20.0, 19.4, 27.5]},
+    {"id": "office2", "label": "Office 2", "type": "office", "rect": [20.4, 30.6, 19.4, 27.5]},
+    {"id": "bath-primary", "label": "Primary bath", "type": "bath", "rect": [31.0, 39.5, 19.4, 27.5]},
+    {"id": "primary", "label": "Primary bedroom", "type": "bedroom", "rect": [40.0, 53.5, 15.2, 27.5]}
+   ],
+   "doors": [
+    {"id": "front", "run": "y", "at": 0.25, "span": [6, 9], "height": 6.8, "exterior": true},
+    {"id": "garden", "run": "y", "at": 53.75, "span": [4, 12], "height": 6.8, "exterior": true, "glazed": true},
+    {"id": "office", "run": "y", "at": 13.2, "span": [15.6, 18.2], "height": 6.8},
+    {"id": "bath", "run": "x", "at": 19.2, "span": [15.0, 17.5], "height": 6.8},
+    {"id": "office2", "run": "x", "at": 19.2, "span": [22.0, 24.6], "height": 6.8},
+    {"id": "primary", "run": "y", "at": 39.75, "span": [15.6, 18.4], "height": 6.8},
+    {"id": "bath-primary", "run": "y", "at": 39.75, "span": [21.0, 23.6], "height": 6.8}
+   ],
+   "openings": [
+    {"id": "living-kitchen", "run": "y", "at": 16.2, "span": [4, 11], "height": 7.5},
+    {"id": "living-hall", "run": "x", "at": 15.0, "span": [13.6, 15.9], "height": 7.5},
+    {"id": "kitchen-hall", "run": "x", "at": 15.0, "span": [18, 22], "height": 7.5},
+    {"id": "hall-stair", "run": "y", "at": 27.2, "span": [15.6, 18.6], "height": 7.5},
+    {"id": "kitchen-family", "run": "y", "at": 39.75, "span": [3, 12], "height": 7.5}
+   ],
+   "windows": [
+    {"id": "w-living-front", "run": "y", "at": 0.25, "span": [10.5, 13.5], "sill": 2.5, "head": 7.0},
+    {"id": "w-living-side", "run": "x", "at": 0.25, "span": [4, 8], "sill": 2.5, "head": 7.0},
+    {"id": "w-office-front", "run": "y", "at": 0.25, "span": [19, 23], "sill": 2.5, "head": 7.0},
+    {"id": "w-office-side", "run": "x", "at": 27.75, "span": [4, 8], "sill": 2.5, "head": 7.0},
+    {"id": "w-bath", "run": "x", "at": 27.75, "span": [15.5, 17.5], "sill": 4.0, "head": 7.0},
+    {"id": "w-office2", "run": "x", "at": 27.75, "span": [23, 27], "sill": 2.5, "head": 7.0},
+    {"id": "w-bath-primary", "run": "x", "at": 27.75, "span": [34, 36], "sill": 4.0, "head": 7.0},
+    {"id": "w-kitchen-1", "run": "x", "at": 0.25, "span": [19, 24], "sill": 3.5, "head": 7.0},
+    {"id": "w-kitchen-2", "run": "x", "at": 0.25, "span": [31, 35], "sill": 3.5, "head": 7.0},
+    {"id": "w-family", "run": "x", "at": 0.25, "span": [43, 50], "sill": 2.0, "head": 7.5},
+    {"id": "w-primary-side", "run": "x", "at": 27.75, "span": [44, 49], "sill": 2.5, "head": 7.0},
+    {"id": "w-primary-rear", "run": "y", "at": 53.75, "span": [19, 24], "sill": 2.5, "head": 7.0}
+   ]
+  },
+  {
+   "id": "upper", "label": "Second floor", "floor": 10.0, "ceiling": 8.0,
+   "outline": [[20, 54, 0, 28]],
+   "rooms": [
+    {"id": "landing", "label": "Landing", "type": "hall", "rects": [[20.5, 27.0, 15.2, 19.0], [39.9, 53.5, 15.2, 19.0]]},
+    {"id": "stair-up", "label": "Stair", "type": "stair", "rect": [27.4, 39.5, 15.2, 19.0]},
+    {"id": "bed3", "label": "Bedroom 3", "type": "bedroom", "rect": [20.5, 36.0, 0.5, 14.8]},
+    {"id": "bed4", "label": "Bedroom 4", "type": "bedroom", "rect": [36.4, 53.5, 0.5, 14.8]},
+    {"id": "bath-up", "label": "Bath", "type": "bath", "rect": [20.5, 30.0, 19.4, 27.5]},
+    {"id": "bed5", "label": "Bedroom 5", "type": "bedroom", "rect": [30.4, 53.5, 19.4, 27.5]}
+   ],
+   "doors": [
+    {"id": "bed3", "run": "x", "at": 15.0, "span": [22.0, 24.6], "height": 6.8},
+    {"id": "bed4", "run": "x", "at": 15.0, "span": [42.0, 44.6], "height": 6.8},
+    {"id": "bath-up", "run": "x", "at": 19.2, "span": [22.5, 25.0], "height": 6.8},
+    {"id": "bed5", "run": "x", "at": 19.2, "span": [42.0, 44.6], "height": 6.8}
+   ],
+   "openings": [
+    {"id": "stair-west", "run": "y", "at": 27.2, "span": [15.6, 18.6], "height": 7.0},
+    {"id": "stair-east", "run": "y", "at": 39.7, "span": [15.6, 18.6], "height": 7.0}
+   ],
+   "windows": [
+    {"id": "w-bed3-front", "run": "y", "at": 20.25, "span": [5, 10], "sill": 2.5, "head": 6.8},
+    {"id": "w-bed3-side", "run": "x", "at": 0.25, "span": [26, 31], "sill": 2.5, "head": 6.8},
+    {"id": "w-bed4-side", "run": "x", "at": 0.25, "span": [42, 47], "sill": 2.5, "head": 6.8},
+    {"id": "w-bed4-rear", "run": "y", "at": 53.75, "span": [5, 10], "sill": 2.5, "head": 6.8},
+    {"id": "w-bath-up", "run": "x", "at": 27.75, "span": [24, 26], "sill": 4.0, "head": 6.8},
+    {"id": "w-bed5-side", "run": "x", "at": 27.75, "span": [38, 43], "sill": 2.5, "head": 6.8},
+    {"id": "w-bed5-rear", "run": "y", "at": 53.75, "span": [21, 25], "sill": 2.5, "head": 6.8},
+    {"id": "w-landing", "run": "y", "at": 53.75, "span": [16, 18.4], "sill": 2.5, "head": 6.8}
+   ]
+  }
+ ],
+ "stair": {"rect": [27.4, 39.5, 15.2, 19.0], "from": "main", "to": "upper", "up_toward": "+x"},
+ "porches": [
+  {"id": "front-porch", "rect": [-7, 0, 2, 20], "floor": -0.5, "posts": true},
+  {"id": "rear-porch", "rect": [54, 66, 0, 16], "floor": -0.5, "posts": true}
+ ],
+ "roofs": [
+  {"id": "front", "rect": [0, 20, 0, 28], "type": "gable", "ridge": "x", "pitch": 6, "overhang": 1.5, "base": 9.0},
+  {"id": "upper", "rect": [20, 54, 0, 28], "type": "gable", "ridge": "x", "pitch": 5, "overhang": 1.5, "base": 18.0},
+  {"id": "front-porch", "rect": [-7, 0, 2, 20], "type": "shed", "ridge": "y", "pitch": 2, "overhang": 0.5, "base": 8.0, "low_side": "-x"},
+  {"id": "rear-porch", "rect": [54, 66, 0, 16], "type": "shed", "ridge": "y", "pitch": 2, "overhang": 0.5, "base": 8.0, "low_side": "+x"}
+ ],
+ "cost_items": [
+  {"label": "Structural work to carry the second floor on the old walls", "amount": 30000, "guess": true, "source": "placeholder guess; an engineer sets this"}
+ ],
+ "grade": -1.5
+}

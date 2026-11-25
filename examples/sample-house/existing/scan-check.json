@@ -1,0 +1,22 @@
+{
+ "file": "house.json",
+ "scans": {
+  "inside": {
+   "kind": "inside",
+   "points_checked": 60000,
+   "median_in": 0.27,
+   "p90_in": 0.65,
+   "share_within_2in": 1.0,
+   "share_beyond_6in": 0.0
+  },
+  "outside": {
+   "kind": "outside",
+   "points_checked": 34762,
+   "median_in": 0.28,
+   "p90_in": 0.67,
+   "share_within_2in": 1.0,
+   "share_beyond_6in": 0.0
+  }
+ },
+ "note": "Distance from scan wall points to the nearest drawn wall face. Magenta clusters are walls missing from the plan, furniture, or scan drift."
+}

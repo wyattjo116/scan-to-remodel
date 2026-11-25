@@ -1,0 +1,152 @@
+{
+ "id": "existing",
+ "areas": {
+  "levels": {
+   "main": {
+    "gross_sqft": 1120.0,
+    "rooms": {
+     "living": 221.7,
+     "dining": 151.6,
+     "kitchen": 223.9,
+     "hall": 51.7,
+     "bed1": 153.8,
+     "bath": 53.5,
+     "bed2": 154.7
+    }
+   }
+  },
+  "floor_area_sqft": 1120.0,
+  "footprint_sqft": 1120.0,
+  "porch_sqft": 126.0,
+  "covered_sqft": 1246.0
+ },
+ "checks": [
+  {
+   "level": "main",
+   "check": "living at least 11 ft wide",
+   "ok": true,
+   "detail": "narrow side 14'-4\""
+  },
+  {
+   "level": "main",
+   "check": "living can be entered",
+   "ok": true,
+   "detail": "3 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "living has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "dining at least 9 ft wide",
+   "ok": true,
+   "detail": "narrow side 10'-7\""
+  },
+  {
+   "level": "main",
+   "check": "dining can be entered",
+   "ok": true,
+   "detail": "3 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "dining has a window",
+   "ok": true,
+   "detail": "1 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "kitchen at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 12'-1\""
+  },
+  {
+   "level": "main",
+   "check": "kitchen can be entered",
+   "ok": true,
+   "detail": "3 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "kitchen has a window",
+   "ok": true,
+   "detail": "2 windows, 1 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "hall at least 3 ft wide",
+   "ok": true,
+   "detail": "narrow side 3'-10\""
+  },
+  {
+   "level": "main",
+   "check": "hall can be entered",
+   "ok": true,
+   "detail": "6 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "bed1 at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 12'-4\""
+  },
+  {
+   "level": "main",
+   "check": "bed1 can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "bed1 has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "main",
+   "check": "bath at least 5 ft wide",
+   "ok": true,
+   "detail": "narrow side 6'-7\""
+  },
+  {
+   "level": "main",
+   "check": "bath can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "bed2 at least 8 ft wide",
+   "ok": true,
+   "detail": "narrow side 8'-1\""
+  },
+  {
+   "level": "main",
+   "check": "bed2 can be entered",
+   "ok": true,
+   "detail": "1 door or opening"
+  },
+  {
+   "level": "main",
+   "check": "bed2 has a window",
+   "ok": true,
+   "detail": "2 windows, 0 glazed doors"
+  },
+  {
+   "level": "lot",
+   "check": "lot coverage",
+   "ok": true,
+   "detail": "16.6% of the lot against a limit of 45%"
+  },
+  {
+   "level": "lot",
+   "check": "floor-area ratio",
+   "ok": true,
+   "detail": "0.15 against a limit of 0.50"
+  }
+ ],
+ "height_ft": 17.5
+}
